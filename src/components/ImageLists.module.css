@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap');
+
+.image {
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
+}
+
+.name {
+    font-family: Montserrat;
+    font-size: 0.9rem;
+    font-weight: 700;
+    padding: 0 !important;
+    text-align: left;
+}
+
+.username {
+    text-align: left;
+    padding: 0 !important;
+    color: #A7A7A7;
+    font-family: Poppins;
+    font-size: 0.8rem;
+    font-style: italic;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.likes {
+    font-family: Montserrat;
+    font-weight: 600;
+}

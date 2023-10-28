@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap');
+
+.maincontainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 7px 7px 0rem 0rem;
+    box-shadow: 24;
+    outline: none;
+}
+
+.image {
+    border-radius: 7px 7px 0rem 0rem;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.imgWrapper {
+    border-radius: 7px 7px 0rem 0rem;
+    width: 100%;
+    height: 62%;
+    position: relative;
+}
+
+.sharebtn {
+    position: absolute !important;
+    bottom: 5%;
+    width: 12%;
+    color: #ECECEC !important;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 2rem;
+    font-weight: 500;
+    border: 1px solid white !important;
+}
+
+.infobtn {
+    position: absolute !important;
+    bottom: 5%;
+    width: 11%;
+    color: #ECECEC !important;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 2rem;
+    font-weight: 500;
+    border: 1px solid white !important;
+}
+
+.downloadbtn {
+    position: absolute !important;
+    right: 3%;
+    width: 20%;
+    color: #FFF !important;
+    text-align: center;
+    border: none !important;
+    background-color: #3CB46E !important;
+    font-family: Montserrat;
+    font-size: 0.625rem;
+    font-weight: 700;
+    text-transform: none !important;
+}
+
+.mobileDownloadbtn {
+    width: 100%;
+    color: #FFF !important;
+    text-align: center;
+    border: none !important;
+    background-color: #3CB46E !important;
+    font-family: Montserrat;
+    font-size: 0.4rem;
+    padding: 0.1rem 1rem !important;
+    font-weight: 700;
+    text-transform: none !important;
+}
+
+.sharebtn span {
+    padding-left: 0.5rem;
+    font-size: 0.8rem;
+    text-transform: none !important;
+}
+
+.infobtn span {
+    padding-left: 0.5rem;
+    font-size: 0.8rem;
+    text-transform: none !important;
+}
+
+.userPhoto {
+    border-radius: 50%;
+    width: 2.5rem;
+}
+
+.name {
+    color: #4F4F4F;
+    font-family: Montserrat;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.username {
+    color: #A7A7A7;
+    font-family: Poppins;
+    font-size: 0.8rem;
+    font-style: italic;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.handles {
+    color: #A7A7A7;
+    font-family: Poppins;
+    font-size: 0.75rem;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.insta {
+    padding-left: 0.2rem;
+    padding-right: 0.8rem;
+    padding-top: 0.2rem;
+    text-decoration: none;
+    color: #A7A7A7;
+}
+
+.twitter {
+    padding-left: 0.1rem;
+    text-decoration: none;
+    color: #A7A7A7;
+}
+
+.likeCount {
+    color: #858484;
+    font-family: Montserrat;
+    font-size: 0.9375rem;
+    font-weight: 700;
+    padding-left: 0.5rem;
+    margin-bottom: 0.2rem;
+}
+
+.download {
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+}
+
+.downloadcount {
+    color: #858484;
+    font-family: Montserrat;
+    font-size: 0.88463rem;
+    font-weight: 700;
+    padding-right: 1rem;
+}
+
+.tagHeading {
+    color: #4F4F4F;
+    font-family: Montserrat;
+    font-size: 0.9rem;
+    font-weight: 700;
+    padding-top: 0.4rem;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+}
+
+.tag {
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 0.25rem;
+    background: #ECECEC;
+    display: inline-flex;
+    padding: 0.5rem 0.75rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}

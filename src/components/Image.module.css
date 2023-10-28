@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Rubik:wght@400;500;700&display=swap');
+
+.heading {
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+    color: #FFF;
+    font-family: Montserrat;
+    font-weight: 700;
+    letter-spacing: -0.04rem;
+}
+
+.heading2 {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+    color: #C4C4C4;
+    font-family: Montserrat;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.search {
+    position: absolute;
+    top: 65%;
+    width: 20%;
+}
+
+.txt {
+    font-family: Montserrat;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: left;
+    margin-left: 8.5rem;
+    margin-bottom: 2rem;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    overflow-x: hidden;
+    white-space: nowrap;
+    padding: 0;
+    width: 93%;
+}
+
+.tag {
+    margin-right: 10px;
+    border-radius: 0.25rem;
+    border: 1px solid #C4C4C4;
+    color: #E5E5E5;
+    font-family: Montserrat;
+    font-size: 0.75rem;
+    font-weight: 500;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    color: #E5E5E5;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 2rem;
+}
+
+.searchcontainer {
+    background-color: white;
+    z-index: 99;
+    position: absolute;
+    top: 85%;
+    border-radius: 0.5rem;
+    height: 42%;
+    padding: 1rem 2rem;
+    text-align: left;
+}
+
+.suggestion {
+    color: #4F4F4F;
+    font-family: Montserrat;
+    font-size: 1.05rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 0.3rem 0;
+    cursor: pointer;
+}

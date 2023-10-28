@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+
+.heading {
+    font-family: 'Pattaya' !important;
+}
+
+.searchcontainer {
+    background-color: white;
+    z-index: 99;
+    position: absolute;
+    top: 85%;
+    border-radius: 0.5rem;
+    height: 7.2rem;
+    padding: 1rem 1.5rem;
+    text-align: left;
+}
+
+.suggestion {
+    color: #4F4F4F;
+    font-family: Montserrat;
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding: 0.15rem 0;
+    cursor: pointer;
+}
